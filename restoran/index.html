@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="menue">
+            <a href=".form" class="menue-item">Reservations</a>
+            <a href="#" class="menue-item"> Carte</a>
+            <a href="#" class="menue-item"> temoinage</a>
+        </nav>
+        <form class="form">
+        <h1>Formulaire de Reservations</h1>
+            
+        <label for="nom"></label>
+        <input type="text" id="nom" name="nom" placeholder="nom" required><br><br>
+        
+
+            <label for="heure"></label>
+            <input type="time" id="heure" name="heure"  required><br><br>
+            <label for="nombre_personnes"></label>
+            <input type="number" id="nombre_personnes" name="nombre_personnes" placeholder="nombre de personnes" min="1" required><br><br>
+            <input id="bouton" type="submit" value="Réserver">
+        </form>
+    </header>
+    <main>
+        <div class="carte">
+            <h2 class="titre">
+                Carte
+            </h2>
+            <div class="grid">
+            <div class="hamburger">
+                <h1 class="product-title">hamburger Campagnard</h1>
+                <p class="product-description">
+                Faites-vous plaisir avec ce burger composé d'un pain spécial garni de steak haché pur bœuf de race charolaise cuit, d'une compotée d'oignons et d'une sauce à la ciboulette.
+                <figure >
+                <img class="product-image1" src="./asset/ressources/hamburger campagnare.jpg" alt="food">
+                </figure>
+            </div>
+            <div class="fruit de mer ">
+                <h1 class="product-title">ensemble de fruit de mer </h1>
+                <p class="product-description">
+                    Cette délicieuse bouchée entré est parfaite, gourmand et festif. Les fêtes de fin d'année, un anniversaire, un repas en amoureux, ces bouchées trouveront place à votre table.
+                <figure >
+                <img class="product-image2" src="./asset/ressources/ensemble de fruit mer .jpg" alt="food">
+                </figure>
+            </div>
+                <div class="steak">
+                <h1 class="product-title">steak et oeuf pocher</h1>
+                <p class="product-description">
+                Le steak haché avec œuf poché est un grand classique de la cuisine française. Le but est de ne pas trop cuire l’œuf afin que le jaune coule sur le steak haché. 
+                <figure class="img-hamburger" >
+                <img class="product-image3" src="./asset/ressources/steak et oeuf pocher.jpg" alt="food">
+                </figure>
+            </div>
+            <div class="pot-au-fau">
+                <h1 class="product-title">pot au feu</h1>
+                <p class="product-description">
+                Potage chaud composé de viande(s), le plus souvent de boeuf, bouillie(s) longtemps à petit feu avec des légumes
+                <figure >
+                <img class="product-image4" src="./asset/ressources/pot au feu.jpg" alt="food">
+                </figure>
+            </div>
+            <div class="saumon">
+                <h1 class="product-title">salade de saumon</h1>
+                <p class="product-description">
+                Délicieuse, équilibrée et gourmande. Ce grand classique convient aussi bien pour un repas . Elle est accompagnée d’une sauce vinaigrette délicatement acidulée 
+                <figure >
+                <img class="product-image5" src="./asset/ressources/saumon avec voile de salade.jpg" alt="food">
+                </figure>
+            </div>
+            <div class="asperge">
+                <h1 class="product-title"> asperge a la francaise</h1>
+                <p class="product-description">
+                un élégant régal pour les fans d'asperge fraiches et juteuses avec ses condiments variées
+                <figure >
+                <img class="product-image6" src="./asset/ressources/asperge a la francaise.jpg" alt="food">
+                </figure>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="separation">
+        <section class="temoignages">
+            <h2>Ce que nos clients disent</h2>
+            <div class="temoignage">
+            <img src="./asset/ressources/testimonial_1_dark.jpg" alt="nom du clien" class="photo-temoignage">
+            <p class="text">"Ce service a vraiment changé ma vie ! Je le recommande à tout le monde. L'équipe est géniale et les résultats sont impressionnants."</p>
+            <footer>- Alice Dubert, Client satisfait</footer>
+            
+            </div>
+        </section>
+            <section class="temoignages">
+                <div class="temoignage">
+                <img src="./asset/ressources/testimonial_2_dark.jpg" alt="nom du clien" class="photo-temoignage">
+                <p class="text">"Bon Appétit est une véritable perle rare avec une cuisine exquise et un service convivial. Le magret de canard était succulent et la mousse au chocolat un régal absolu! Une adresse à ne pas manquer à Paris."</p>
+                <footer>- Eloise Turas, Client satisfait</footer>
+                
+                </div>
+            </section>
+                <section class="temoignages">
+                    <div class="temoignage">
+                    <img src="./asset/ressources/testimonial_3_dark.jpg" alt="nom du clien" class="photo-temoignage">
+                    <p class="text">"Bon Appétit est un délice culinaire avec un service impeccable et une ambiance charmante. L'hamburger Campagnard et la tarte Tatin sont à tomber !"</p>
+                    <footer>- Lyla Falexe , Client satisfait</footer>
+                    </div>
+                </section>
+            </div>
+
+                <div class="footer-item footer-item-society">
+                    <p>
+                        Bon Appétit<br>
+                        22 place Marcel proust<br>
+                        76600 Paris
+                    </p>
+                    <p>
+                        <a href="tel:0605040302"> contact: 06 05 04 03 02</a>
+                    </p>
+                    <p>
+                        <a href="mailto:contact@travelcorp.fr">contact@Bon_Appétit.fr</a>
+                    </p>
+                    <ul>
+                        <li><a href="#">Notre compagnie</a></li>
+                        <li><a href="#">Nos services</a></li>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+    </footer>
+</body>
+</html>
